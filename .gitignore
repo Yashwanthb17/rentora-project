@@ -1,0 +1,29 @@
+# Backend (Maven)
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.jar
+
+# Frontend (Node)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (NEVER commit these)
+*.env
+.env
+.env.production
+secrets.properties
+application-prod.properties
